@@ -1,7 +1,7 @@
 import './App.css'
 import Banner from './components/banner/Banner'
 import Cardapio_card from './components/cardapio-card/Cardapio-card'
-import Cover from './components/cover/cover'
+import Cover from './components/cover/Cover.jsx'
 import { createGlobalStyle } from 'styled-components'
 
 function App() {
