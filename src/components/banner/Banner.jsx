@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import Banner_restaurant from '../../assets/restaurant.png'
 
 const Container__banner = styled.div `
     width: 100%;
@@ -65,7 +66,7 @@ export default function Banner () {
     return (
         <Container__banner>
             <Container__image>
-                <img src="\src\assets\restaurant.png" alt="restaurant" />
+                <img src={Banner_restaurant} alt="restaurant" />
             </Container__image>
             <Container__sobre>
                 <h2>Sobre a La P<Amarelo>i</Amarelo><Vermelho>z</Vermelho><Verde>z</Verde>a</h2>
